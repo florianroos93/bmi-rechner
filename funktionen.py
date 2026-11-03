@@ -1,5 +1,5 @@
 def berechne_bmi(gewicht,groesse):
-	bmi=round(gewicht/(groesse/100)**2,2)
+	bmi = round(gewicht / (groesse / 100) ** 2, 2)
 	
 
 	if bmi < 18.5:
