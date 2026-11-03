@@ -3,8 +3,8 @@ def berechne_bmi(gewicht,groesse):
 	
 
 	if bmi < 18.5:
-		print("untergewcht")
-	elif bmi > 25:
+		print("Untergewicht")
+	elif bmi >= 25:
 		print("Übergewicht")
 	else:  
 		print("Normalgewicht")
